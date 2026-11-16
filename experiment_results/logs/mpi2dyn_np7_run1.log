@@ -1,0 +1,47 @@
+================================================================
+MPI version 2 - dynamic master-worker task pool
+================================================================
+Processes (p): 7  (counting processes: 6)
+Files processed: 3000
+Tokens read: 44951458
+Total occurrences found: 3631778
+
+Per-process report:
+  rank    role   files          bytes   t_local(s)
+     0  master       0              0     6.559344
+     1  worker     503       46603280     6.502999
+     2  worker     501       45584229     6.499596
+     3  worker     497       45526044     6.498673
+     4  worker     500       46306647     6.502022
+     5  worker     498       45214971     6.501191
+     6  worker     501       45818888     6.491577
+PROC rank=0 role=master files=0 bytes=0 t_local=6.559344
+PROC rank=1 role=worker files=503 bytes=46603280 t_local=6.502999
+PROC rank=2 role=worker files=501 bytes=45584229 t_local=6.499596
+PROC rank=3 role=worker files=497 bytes=45526044 t_local=6.498673
+PROC rank=4 role=worker files=500 bytes=46306647 t_local=6.502022
+PROC rank=5 role=worker files=498 bytes=45214971 t_local=6.501191
+PROC rank=6 role=worker files=501 bytes=45818888 t_local=6.491577
+
+Load imbalance LI = max(t_i)/mean(t_i) over counting processes: 1.0006
+Relative spread (max-min)/mean:                                0.0018
+LI=1.000563
+SPREAD=0.001757
+
+Top 10 query words in the corpus:
+  a: 785774
+  para: 392156
+  sus: 228913
+  otros: 105530
+  ante: 99832
+  unos: 88794
+  otra: 83901
+  vosotros: 61617
+  mios: 58420
+  tuya: 56635
+
+Check against baseline_results.csv: MATCH
+Total execution time: 7.041209 s
+EXECUTION_TIME=7.041209
+Size scan time (stat of all files, split among ranks): 0.475273 s
+SCAN_TIME=0.475273

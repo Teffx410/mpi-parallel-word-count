@@ -1,0 +1,47 @@
+================================================================
+MPI version 1 - static block distribution
+================================================================
+Processes (p): 8
+Files processed: 3000
+Tokens read: 44951458
+Total occurrences found: 3631778
+
+Per-process report:
+  rank   files          bytes   t_local(s)
+     0     375       36729838     6.023092
+     1     375       29365793     5.371548
+     2     375       37820796     6.197010
+     3     375       36566727     6.112872
+     4     375       32323435     5.601793
+     5     375       33864681     5.835092
+     6     375       33102929     5.653658
+     7     375       35279860     5.943177
+PROC rank=0 files=375 bytes=36729838 t_local=6.023092
+PROC rank=1 files=375 bytes=29365793 t_local=5.371548
+PROC rank=2 files=375 bytes=37820796 t_local=6.197010
+PROC rank=3 files=375 bytes=36566727 t_local=6.112872
+PROC rank=4 files=375 bytes=32323435 t_local=5.601793
+PROC rank=5 files=375 bytes=33864681 t_local=5.835092
+PROC rank=6 files=375 bytes=33102929 t_local=5.653658
+PROC rank=7 files=375 bytes=35279860 t_local=5.943177
+
+Load imbalance LI = max(t_i)/mean(t_i): 1.0607
+Relative spread (max-min)/mean:       0.1413
+LI=1.060718
+SPREAD=0.141291
+
+Top 10 query words in the corpus:
+  a: 785774
+  para: 392156
+  sus: 228913
+  otros: 105530
+  ante: 99832
+  unos: 88794
+  otra: 83901
+  vosotros: 61617
+  mios: 58420
+  tuya: 56635
+
+Check against baseline_results.csv: MATCH
+Total execution time: 6.231700 s
+EXECUTION_TIME=6.231700

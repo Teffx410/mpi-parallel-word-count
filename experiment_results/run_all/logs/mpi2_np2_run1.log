@@ -1,0 +1,37 @@
+================================================================
+MPI version 2 - size-weighted static distribution (LPT)
+================================================================
+Processes (p): 2  (counting processes: 2)
+Files processed: 3000
+Tokens read: 44951458
+Total occurrences found: 3631778
+
+Per-process report:
+  rank    role   files          bytes   t_local(s)
+     0  worker    1499      137527044    10.470863
+     1  worker    1501      137527015    10.416875
+PROC rank=0 role=worker files=1499 bytes=137527044 t_local=10.470863
+PROC rank=1 role=worker files=1501 bytes=137527015 t_local=10.416875
+
+Load imbalance LI = max(t_i)/mean(t_i) over counting processes: 1.0026
+Relative spread (max-min)/mean:                                0.0052
+LI=1.002585
+SPREAD=0.005169
+
+Top 10 query words in the corpus:
+  a: 785774
+  para: 392156
+  sus: 228913
+  otros: 105530
+  ante: 99832
+  unos: 88794
+  otra: 83901
+  vosotros: 61617
+  mios: 58420
+  tuya: 56635
+
+Check against baseline_results.csv: MATCH
+Total execution time: 11.287373 s
+EXECUTION_TIME=11.287373
+Size scan time (stat of all files, split among ranks): 0.810989 s
+SCAN_TIME=0.810989

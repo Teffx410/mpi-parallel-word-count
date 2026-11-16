@@ -1,0 +1,15 @@
+detectar_procesos_mpi.py - first execution (same machine, same container image).
+The full log of this execution was not kept; the per-N medians below were
+copied from its console output. Task: count primes up to 2000000, 3 measurements per N.
+
+N=1, mediana: 5.393 s
+N=2, mediana: 3.310 s
+N=3, mediana: 3.860 s
+N=4, mediana: 2.526 s
+N=5, mediana: 2.561 s
+N=6, mediana: 2.701 s
+N=7, mediana: 2.193 s
+N=8, mediana: 2.248 s
+
+N RECOMENDADO: 7
+Tiempo mediano: 2.193 s
